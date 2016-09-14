@@ -1,0 +1,12 @@
+C:\Users\Lesley\AppData\Local\Temporary Projects\pingListener.Test\bin\Debug\pingListener.Test.exe.config
+C:\Users\Lesley\AppData\Local\Temporary Projects\pingListener.Test\bin\Debug\pingListener.Test.exe
+C:\Users\Lesley\AppData\Local\Temporary Projects\pingListener.Test\bin\Debug\pingListener.Test.pdb
+C:\Users\Lesley\AppData\Local\Temporary Projects\pingListener.Test\obj\Debug\pingListener.Test.csprojResolveAssemblyReference.cache
+C:\Users\Lesley\AppData\Local\Temporary Projects\pingListener.Test\obj\Debug\pingListener.Test.exe
+C:\Users\Lesley\AppData\Local\Temporary Projects\pingListener.Test\obj\Debug\pingListener.Test.pdb
+D:\MEGA\2016\Programming\vs15\pingListener.Test\bin\Debug\pingListener.Test.exe.config
+D:\MEGA\2016\Programming\vs15\pingListener.Test\obj\Debug\pingListener.Test.exe
+D:\MEGA\2016\Programming\vs15\pingListener.Test\obj\Debug\pingListener.Test.pdb
+D:\MEGA\2016\Programming\vs15\pingListener.Test\bin\Debug\pingListener.Test.exe
+D:\MEGA\2016\Programming\vs15\pingListener.Test\bin\Debug\pingListener.Test.pdb
+D:\MEGA\2016\Programming\vs15\pingListener.Test\obj\Debug\pingListener.Test.csprojResolveAssemblyReference.cache
