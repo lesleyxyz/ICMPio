@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿using System;
+=======
+using System;
+>>>>>>> 2f4bab7c0dd0c94722b718863a63ff878cb36538
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
@@ -56,6 +60,7 @@ namespace pingListener.Test
                 byte[] buffer = new byte[65575]; //The max ping packet size including the header of an IPv6 address.
                 EndPoint remoteEP = new IPEndPoint(IPAddress.Any, 0);
                 int bytesRead = ICMPListener.ReceiveFrom(buffer, ref remoteEP);
+<<<<<<< HEAD
 
                 byte[] fullPacket = buffer.Take(bytesRead).ToArray(); //buffer is 66575, it'll most likely be bigger than what we actually received 
                 byte[] body = fullPacket.Skip(fullPacket.Length - 28).ToArray(); //Take all bytes but the 28 first (28 = 20 (ip address) + 8 (icmp header packet) 
@@ -64,6 +69,16 @@ namespace pingListener.Test
 
                 //byte code = fullPacket[21];
 
+=======
+
+                byte[] fullPacket = buffer.Take(bytesRead).ToArray(); //buffer is 66575, it'll most likely be bigger than what we actually received 
+                byte[] body = fullPacket.Skip(fullPacket.Length - 28).ToArray(); //Take all bytes but the 28 first (28 = 20 (ip address) + 8 (icmp header packet) 
+
+                byte type = fullPacket[20];
+
+                //byte code = fullPacket[21];
+
+>>>>>>> 2f4bab7c0dd0c94722b718863a63ff878cb36538
                 if (type == 0x08) //request, reply = 0x00, we only want the requests to us.
                 {
                     string remoteIP = StripPortFromEndPoint(remoteEP.ToString());
