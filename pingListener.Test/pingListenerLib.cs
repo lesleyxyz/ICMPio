@@ -26,9 +26,9 @@ using System.Threading;
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace pingListener.Test
+namespace ICMPio.Test
 {
-    class pingListener
+    class ICMPio
     {
         public delegate void onPingReceiveHandler(IPAddress remoteEndPoint, int packetSize, byte[] packetBody);
         public event onPingReceiveHandler onPingReceive;
@@ -37,7 +37,7 @@ namespace pingListener.Test
         public bool running = false;
 
        
-        public pingListener(IPAddress localIp)
+        public ICMPio(IPAddress localIp)
         {
             ip = localIp;
         }

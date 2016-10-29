@@ -6,12 +6,12 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace pingListener.Test
+namespace ICMPio.Test
 {
     class Program
     {
         static string ip = "192.168.0.2";
-        pingListener pingList = new pingListener(IPAddress.Parse(ip));
+        ICMPio pingList = new ICMPio(IPAddress.Parse(ip));
         static void Main(string[] args)
         {
             Program me = new Program();
