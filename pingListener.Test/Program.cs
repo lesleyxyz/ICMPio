@@ -18,7 +18,7 @@ namespace pingListener.Test
             me.pingList.onPingReceive += me.OnPing;
             me.pingList.Start();
             while (true)
-            {
+            { //send a packet by typing in console: ip|message (for ex: 8.8.8.8|Hey)
                 string input = Console.ReadLine();
                 string[] parts = input.Split('|');
                 string ip = parts[0];
