@@ -10,3 +10,21 @@ In order to use this, make sure you are able to accept all ICMP traffic:
 
 Note: 
 There's already a lot of traffic on the icmp protocol (for ex. from your pc to your router), you should make it so you add an identifier in your body or something.
+
+
+Initiate using ICMPio:
+
+    ICMPio icmpTest = new ICMPio(IPAddress.Parse(ip)); //Where IP is your local ip address
+    icmpTest.Start();
+    
+Receive ICMP packets:
+
+    icmpTest.onPingReceive += me.OnPing;
+    
+    void OnPing(IPAddress remoteEndPoint, int packetSize, byte[] packetBody){
+        //do stuff with remoteEndPoint (remote ipaddress), packetSize and packetBody
+    }
+    
+Send ICMP packet:
+
+    icmpTest.sendPacket(IPAddress.Parse(ip), body); //where ip is the remote IP (to send the packet to) and body is the packet body in bytes
