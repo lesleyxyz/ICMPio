@@ -5,8 +5,26 @@ using System.Net.Sockets;
 using System.Net.NetworkInformation;
 using System.Threading;
 
+//  Run these for it to be able to work on receiving computers as admin:
 //  netsh advfirewall firewall add rule name="pingListener IPv4" dir=in action=allow protocol=icmpv4:any,any
 //  netsh advfirewall firewall add rule name="pingListener IPv6" dir=in action=allow protocol=icmpv6:any,any
+
+/*  ICMP Packet sender and receiver for portless communication
+    Copyright (C) 2016  Lesley De Keyser
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
 
 namespace pingListener.Test
 {
