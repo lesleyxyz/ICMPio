@@ -10,3 +10,9 @@ D:\MEGA\2016\Programming\vs15\pingListener.Test\obj\Debug\pingListener.Test.pdb
 D:\MEGA\2016\Programming\vs15\pingListener.Test\bin\Debug\pingListener.Test.exe
 D:\MEGA\2016\Programming\vs15\pingListener.Test\bin\Debug\pingListener.Test.pdb
 D:\MEGA\2016\Programming\vs15\pingListener.Test\obj\Debug\pingListener.Test.csprojResolveAssemblyReference.cache
+D:\MEGA\2016\Programming\vs15\pingListener\pingListener.Test\bin\Debug\pingListener.Test.exe.config
+D:\MEGA\2016\Programming\vs15\pingListener\pingListener.Test\obj\Debug\pingListener.Test.exe
+D:\MEGA\2016\Programming\vs15\pingListener\pingListener.Test\obj\Debug\pingListener.Test.pdb
+D:\MEGA\2016\Programming\vs15\pingListener\pingListener.Test\bin\Debug\pingListener.Test.exe
+D:\MEGA\2016\Programming\vs15\pingListener\pingListener.Test\bin\Debug\pingListener.Test.pdb
+D:\MEGA\2016\Programming\vs15\pingListener\pingListener.Test\obj\Debug\pingListener.Test.csprojResolveAssemblyReference.cache
